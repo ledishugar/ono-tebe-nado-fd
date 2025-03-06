@@ -24,11 +24,11 @@
     list-style: circle;
 }
 
-.header__link_active{
+.header__link_active {
     text-decoration: none;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 
@@ -67,6 +67,7 @@
     background-color: rgba(0, 0, 0, 0.5);;
    
 }
+
 .cover__title {
     position: relative;
     z-index: 2;
@@ -81,12 +82,7 @@
     text-transform: uppercase;
 }
 
-.aligned-text {
-
-   
-}
-
-.no-letter-spacing{
+.no-letter-spacing {
     letter-spacing: 0;
 }
 
@@ -129,7 +125,7 @@
 
 }
 
-.bet-button{
+.bet-button {
     position: relative;
     z-index: 10;
     flex-shrink: 0;
@@ -206,13 +202,13 @@
     display: flex;
     justify-content: center;
     align-items:flex-end;
-    padding: 0 40px 48px 40px; 
+    padding: 0 40px 48px 40px;
     color: #FFF;
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    line-height: 120%; 
-    }
+    line-height: 120%;
+}
 
 .card__overlay {
     position: absolute;
@@ -222,7 +218,6 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-
 }
 
 .card_type_film {
@@ -259,7 +254,7 @@ background-image: url(/images/card-lot-02.jpg);
     background-color:#FFF;
 }
 
-.about__logo{
+.about__logo {
     display: flex;
     flex-shrink: 0;
     justify-content: center;
@@ -295,14 +290,14 @@ background-image: url(/images/card-lot-02.jpg);
     text-transform: uppercase;
 }
 
-.about__text{
+.about__text {
 padding-right: 0;
 color: #000;
 font-family: Raleway;
 font-weight: 400;
 font-size: 20px;
 font-style: normal;
-line-height: 24px; 
+line-height: 24px;
 }
 
 .about__text-1 {
@@ -333,16 +328,14 @@ padding-bottom: 24px;
 
 .footer__social-list {
     grid-column: 3;
-    
 }
 
 .footer__menu-list {
     text-align: center;
     list-style: none;
-
 }
 
-.footer__menu-link{
+.footer__menu-link {
     text-decoration: none;
 }
 .footer__menu-list-items {
@@ -350,14 +343,9 @@ padding-bottom: 24px;
     justify-content: flex-end;
     gap: 48px; 
     list-style: none;
-    
 }
 
-.footer__menu-list-item {
-    
-}
-
-.footer__social-icon{
+.footer__social-icon {
     width: 48px;
     height: 48px;
-    }
+}
