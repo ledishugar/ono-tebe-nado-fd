@@ -31,7 +31,7 @@
   list-style: none;
 }
 
-.header__logo {
+.header__logo-image {
   flex-shrink: 0;
   width: 148px;
   height: 105px;
@@ -292,6 +292,7 @@
 }
 
 .footer {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-right: 50px;
   padding-left: 50px;
